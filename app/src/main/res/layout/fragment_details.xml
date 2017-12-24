@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ffd0"
+    android:id="@+id/fartwo"
+    tools:context="com.example.tee.madassignment2.FaragmentDetails">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/tvId"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="30dp"
+        android:text="111" />
+
+    <TextView
+
+        android:id="@+id/tvName"
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="abc aa"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/tvId"
+        android:layout_marginTop="15dp" />
+
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+        android:text="002302"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/tvName" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="abc@gmail.com"
+
+        android:layout_marginStart="95dp"
+        android:layout_alignTop="@+id/tvId"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+
+</RelativeLayout>
